@@ -1,0 +1,16 @@
+/* TABLET SPECIFIC STYLES */
+@media only screen and (max-width: 1200px) {
+
+    /* -------------------- TABLET SPECIFIC NAV STYLING --------------------*/
+    .mobile {
+        display: none;
+    }
+
+    nav {
+        height: 2.25rem;
+    }
+
+    nav ul li {
+        flex: 1 1 6.25rem;
+    }
+}

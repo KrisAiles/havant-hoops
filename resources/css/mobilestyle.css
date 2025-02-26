@@ -1,0 +1,67 @@
+/* MOBILE SPECIFIC STYLES */
+@media only screen and (max-width: 800px) {
+
+    /* -------------------- TABLET SPECIFIC NAV STYLING --------------------*/
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    nav {
+        height: 2.25rem;
+    }
+    
+    .dropdown {
+        display: block;
+        padding: 0;
+        margin: 0 0 0 auto;
+        width: 6.25rem;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: relative;
+        right: 0;
+        top: 0;
+        z-index: 800;
+        text-decoration: none;
+        font-size: 0.8rem;
+        background-color: #131850;
+        color: #f4dc18;
+        padding: 0;
+        width: 6.25rem;
+    }
+
+    .dropdown-content ul {
+        display: block;
+        list-style-type: none;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        background-color: #131850;
+    }
+    
+    .dropdown-content ul li {
+        padding: 1rem;
+        margin: 0;
+    }
+    
+    .dropdown-content ul li:hover {
+        background-color: #01a65a;
+    }
+
+    .dropdown-content ul li a {
+        text-decoration: none;
+        color: #f4dc18;
+        font-weight: 100;
+        padding: 0;
+        margin: 0;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+}
