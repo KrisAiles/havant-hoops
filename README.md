@@ -13,4 +13,4 @@ This was a codecademy project to create a single page responsive website for a l
 - CSS
 - Git
 - Github
-- Markdown
+- Markdown 
