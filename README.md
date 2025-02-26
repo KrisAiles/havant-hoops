@@ -1,4 +1,4 @@
-![Havant Hoops logo](./hoopslogo.png)
+![Havant Hoops logo](./hoopslogomd.png)
 
 # Havant Hoops Website
 --------------
